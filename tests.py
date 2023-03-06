@@ -1,3 +1,9 @@
+from api import PetFriends
+from settings import valid_email, valid_password
+import os
+
+pf = PetFriends()
+
 def test_add_new_pet_without_photo_with_valid_data(name='Дин', animal_type='зебра', age='5'):
     """Проверка возможности добавления питомца без фото с корректными данными"""
 
